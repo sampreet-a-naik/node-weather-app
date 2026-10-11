@@ -19,11 +19,3 @@ const forecast = (latitude, longitude, callback) => {
 };
 
 module.exports = forecast;
-
-// const request = require("request");
-
-// const forecast = (latitude, longitude, callback) => {
-//   const url =
-//     "http://api.weatherstack.com/current?access_key=12fc05266cf027935236016336afb8ff&query=" +
-//     encodeURIComponent(`${latitude},${longitude}`) +
-//     "&units=f";
